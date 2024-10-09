@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #e94560;
+  --background-color: #1a1a2e;
+  --text-color: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+}
